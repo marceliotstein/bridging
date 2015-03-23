@@ -230,6 +230,8 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+/* this media query creates a transparent top navbar for wide screens */
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
