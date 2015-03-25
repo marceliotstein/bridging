@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #3631fe;
+    color: #002277;
 }
 
 p {
@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #3631fe;
+    color: #002277;
 }
 
 a:hover,
@@ -52,8 +52,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
 }
 
 .img-centered {
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #3631fe;
+    border-color: #002277;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
     color: #fff;
-    background-color: #3631fe;
+    background-color: #002277;
 }
 
 .btn-primary:hover,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #3631fe;
-    background-color: #3631fe;
+    border-color: #002277;
+    background-color: #002277;
 }
 
 .btn-primary .badge {
-    color: #3631fe;
+    color: #002277;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #3631fe;
+    border-color: #002277;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 300;
     color: #fff;
-    background-color: #3631fe;
+    background-color: #002277;
 }
 
 .btn-xl:hover,
@@ -160,12 +160,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #3631fe;
-    background-color: #3631fe;
+    border-color: #002277;
+    background-color: #002277;
 }
 
 .btn-xl .badge {
-    color: #3631fe;
+    color: #002277;
     background-color: #fff;
 }
 
@@ -175,8 +175,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #3631fe;
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #002277;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -191,8 +191,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #3631fe;
-    background-color: #3631fe;
+    border-color: #002277;
+    background-color: #002277;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,13 +201,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #3631fe;
+    background-color: #002277;
 }
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
     letter-spacing: 1px;
     color: #000;
 }
@@ -215,13 +215,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #3631fe;
+    color: #002277;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #3631fe;
+    background-color: #002277;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -283,7 +283,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Rokkitt",serif;
     font-size: 11px;
     font-style: italic;
     line-height: 11px;
@@ -292,9 +292,9 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 25px;
 }
 
@@ -306,7 +306,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Rokkitt", serif;
         font-size: 20px;
         font-style: italic;
         line-height: 20px;
@@ -315,9 +315,9 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 37px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 37px;
     }
 }
@@ -335,7 +335,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Rokkitt", serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -414,7 +414,7 @@ section h3.section-subheading {
 
 #testimonials .testimonials-item .testimonials-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Rokkitt", serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -495,7 +495,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #3631fe;
+    background-color: #002277;
 }
 
 .timeline>li .timeline-image h4 {
@@ -682,34 +682,34 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #3631fe;
+    border-color: #002277;
     box-shadow: none;
 }
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -726,7 +726,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -734,7 +734,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -760,7 +760,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #3631fe;
+    background-color: #002277;
 }
 
 .btn:focus,
@@ -792,7 +792,7 @@ ul.social-buttons li a:active {
 
 .testimonials-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Rokkitt Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -848,12 +848,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #3631fe;
+    background: #002277;
 }
 
 ::selection {
     text-shadow: none;
-    background: #3631fe;
+    background: #002277;
 }
 
 img::selection {
@@ -865,5 +865,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #3631fe;
+    webkit-tap-highlight-color: #002277;
 }
