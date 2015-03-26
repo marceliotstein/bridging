@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #002277;
+    color: #007777;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -209,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 900;
     letter-spacing: 1px;
-    color: #000;
+    color: #fff;
 }
 
 .navbar-default .nav li a:hover,
@@ -233,6 +233,15 @@ fieldset[disabled] .btn-xl.active {
 /* this media query creates a transparent top navbar for wide screens */
 
 @media(min-width:768px) {
+    /* added by mstein */
+    .navbar-default .nav li a {
+        color: #000;
+    }
+    .navbar-default.navbar-shrink .nav li a {
+        color: #fff;
+    }
+    /* end added by mstein */
+    
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -267,7 +276,7 @@ header {
     text-align: left;
     color: #000;
     background-attachment: scroll;
-    background-image: url(../imgnew/skyline1.jpg);
+    background-image: url(../imgnew/sinatrabox.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -655,7 +664,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../imgnew/skyline2.jpg);
+    background-image: url(../imgnew/skyline1.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
