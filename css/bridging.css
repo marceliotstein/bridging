@@ -241,7 +241,7 @@ fieldset[disabled] .btn-xl.active {
         color: #fff;
     }
     /* end added by mstein */
-    
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -356,24 +356,24 @@ section h3.section-subheading {
     }
 }
 
-.practice-heading {
+.testimonial-heading {
     margin: 15px 0;
     text-transform: none;
 }
 
-#testimonials .testimonials-item {
+#practice .practice-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#testimonials .testimonials-item .testimonials-link {
+#practice .practice-item .practice-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#testimonials .testimonials-item .testimonials-link .testimonials-hover {
+#practice .practice-item .practice-link .practice-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -384,11 +384,11 @@ section h3.section-subheading {
     transition: all ease .5s;
 }
 
-#testimonials .testimonials-item .testimonials-link .testimonials-hover:hover {
+#practice .practice-item .practice-link .practice-hover:hover {
     opacity: 1;
 }
 
-#testimonials .testimonials-item .testimonials-link .testimonials-hover .testimonials-hover-content {
+#practice .practice-item .practice-link .practice-hover .practice-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -399,16 +399,16 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#testimonials .testimonials-item .testimonials-link .testimonials-hover .testimonials-hover-content i {
+#practice .practice-item .practice-link .practice-hover .practice-hover-content i {
     margin-top: -12px;
 }
 
-#testimonials .testimonials-item .testimonials-link .testimonials-hover .testimonials-hover-content h3,
-#testimonials .testimonials-item .testimonials-link .testimonials-hover .testimonials-hover-content h4 {
+#practice .practice-item .practice-link .practice-hover .practice-hover-content h3,
+#practice .practice-item .practice-link .practice-hover .practice-hover-content h4 {
     margin: 0;
 }
 
-#testimonials .testimonials-item .testimonials-caption {
+#practice .practice-item .practice-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -416,24 +416,24 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#testimonials .testimonials-item .testimonials-caption h4 {
+#practice .practice-item .practice-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#testimonials .testimonials-item .testimonials-caption p {
+#practice .practice-item .practice-caption p {
     margin: 0;
     font-family: "Rokkitt", serif;
     font-size: 16px;
     font-style: italic;
 }
 
-#testimonials * {
+#practice * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #testimonials .testimonials-item {
+    #practice .practice-item {
         margin: 0 0 30px;
     }
 }
@@ -779,7 +779,7 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.testimonials-modal .modal-content {
+.practice-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -790,32 +790,32 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
-.testimonials-modal .modal-content h2 {
+.practice-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
 }
 
-.testimonials-modal .modal-content p {
+.practice-modal .modal-content p {
     margin-bottom: 30px;
 }
 
-.testimonials-modal .modal-content p.item-intro {
+.practice-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Rokkitt Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-.testimonials-modal .modal-content ul.list-inline {
+.practice-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.testimonials-modal .modal-content img {
+.practice-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.testimonials-modal .close-modal {
+.practice-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -825,11 +825,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.testimonials-modal .close-modal:hover {
+.practice-modal .close-modal:hover {
     opacity: .3;
 }
 
-.testimonials-modal .close-modal .lr {
+.practice-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -840,7 +840,7 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
-.testimonials-modal .close-modal .lr .rl {
+.practice-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -850,7 +850,7 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
-.testimonials-modal .modal-backdrop {
+.practice-modal .modal-backdrop {
     display: none;
     opacity: 0;
 }
