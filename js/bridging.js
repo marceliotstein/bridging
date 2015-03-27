@@ -5,8 +5,8 @@
  */
 
 $(document).ready(function(e) {
-  alert("wat");
-  alert(lpgapproach);
+  appr = lpgapproach['approach'];
+  alert(appr);
 });
 
 /* original JS from startbootstrap below ... */
