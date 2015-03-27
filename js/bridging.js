@@ -6,7 +6,7 @@
 
 $(document).ready(function(e) {
   appr = lpgapproach['approach'];
-  alert(appr);
+  $('#approach-text').html(appr);
 });
 
 /* original JS from startbootstrap below ... */

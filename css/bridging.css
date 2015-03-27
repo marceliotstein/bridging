@@ -834,13 +834,18 @@ ul.social-buttons li a:active {
     top: 25px;
     right: 25px;
     /*width: 75px;*/
-    height: 75px;
+    /*height: 75px;*/
     background-color: transparent;
     cursor: pointer;
 }
 
 .practice-modal .close-modal:hover {
     opacity: .3;
+}
+
+.practice-text {
+  text-align: left;
+  padding-top: 30px;
 }
 
 /***
@@ -869,6 +874,14 @@ ul.social-buttons li a:active {
 .practice-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.practice-modal .modal-content {
+  padding-top: 70px;
+}
+
+.practice-modal .modal-body {
+  padding-top: 0px;
 }
 
 ::-moz-selection {
