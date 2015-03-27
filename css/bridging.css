@@ -779,6 +779,20 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+/* mstein: changes to basic modal model */
+
+.modal {
+  top: 70px;
+}
+
+.modal-more {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,cursive;
+  font-size: 1.5em;
+  color: #007777;
+}
+
+/* mstein: end */
+
 .practice-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -819,7 +833,7 @@ ul.social-buttons li a:active {
     position: absolute;
     top: 25px;
     right: 25px;
-    width: 75px;
+    /*width: 75px;*/
     height: 75px;
     background-color: transparent;
     cursor: pointer;
@@ -829,6 +843,7 @@ ul.social-buttons li a:active {
     opacity: .3;
 }
 
+/***
 .practice-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
@@ -849,6 +864,7 @@ ul.social-buttons li a:active {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+******/
 
 .practice-modal .modal-backdrop {
     display: none;
