@@ -787,7 +787,8 @@ ul.social-buttons li a:active {
 /* mstein: changes to basic modal model */
 
 .modal {
-  top: 70px;
+  /*top: 70px;*/
+  top: 100px;
 }
 
 .modal-more {
@@ -840,7 +841,7 @@ ul.social-buttons li a:active {
     right: 25px;
     /*width: 75px;*/
     /*height: 75px;*/
-    background-color: transparent;
+    background-color: blue;
     cursor: pointer;
 }
 

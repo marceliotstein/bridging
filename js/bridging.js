@@ -9,6 +9,10 @@ $(document).ready(function(e) {
   $('#approach-text').html(appr);
 });
 
+$('.navbar-brand').hover(function() {
+  $('.practice-modal').modal('hide');
+});
+
 /* original JS from startbootstrap below ... */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
