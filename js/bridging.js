@@ -9,7 +9,7 @@ $(document).ready(function(e) {
   $('#approach-text').html(appr);
 });
 
-$('.navbar-brand').hover(function() {
+$('.lpg-clear-modal').click(function() {
   $('.practice-modal').modal('hide');
 });
 
