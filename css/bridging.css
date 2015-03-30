@@ -285,7 +285,7 @@ header {
     text-align: left;
     color: #000;
     background-attachment: scroll;
-    background-image: url(../imgnew/sinatrafront.jpg);
+    background-image: url(../imgnew/skyline1.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -295,9 +295,7 @@ header {
 }
 
 header .intro-text {
-    /*padding-top: 100px;
-    padding-bottom: 50px;*/
-    padding-top: 250px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -320,10 +318,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        /*padding-top: 200px;
-        padding-bottom: 300px;*/
-        padding-top: 380px;
-        padding-bottom: 120px;
+        padding-top: 200px;
+        padding-bottom: 300px;
     }
 
     header .intro-text .intro-lead-in {
@@ -677,7 +673,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../imgnew/skyline1.jpg);
+    background-image: url(../imgnew/skyline2.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
