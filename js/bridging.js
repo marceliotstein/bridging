@@ -5,8 +5,11 @@
  */
 
 $(document).ready(function(e) {
-  appr = lpgapproach['approach'];
-  $('#approach-text').html(appr);
+  apprtxt = lpgapproach['text'];
+  $('#approach-text').html(apprtxt);
+
+  changetxt = lpgchange['text'];
+  $('#change-text').html(changetxt);
 });
 
 $('.lpg-clear-modal').click(function() {

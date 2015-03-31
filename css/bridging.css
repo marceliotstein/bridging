@@ -886,6 +886,11 @@ ul.social-buttons li a:active {
   padding-top: 30px;
 }
 
+.lpg-text {
+  text-align: left;
+  padding-top: 30px;
+}
+
 /***
 .practice-modal .close-modal .lr {
     z-index: 1051;
