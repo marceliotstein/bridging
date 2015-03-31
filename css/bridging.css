@@ -196,7 +196,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #007777;
+    color: #33bbbb;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -254,6 +254,10 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     /* added by mstein */
+    .nav li a {
+      padding: 10px 7px 10px 7px;
+    }
+
     .navbar-default .nav li a {
         color: #000;
     }
@@ -290,6 +294,20 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+}
+
+/* adjust spacing of top nav - mstein */
+
+@media(min-width:880px) {
+  .nav li a {
+    padding: 10px 16px 10px 16px;
+  }
+}
+
+@media(min-width:1000px) {
+  .nav li a {
+    padding: 10px 24px 10px 24px;
+  }
 }
 
 header {
