@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.lpg-home {
+  font-size: 2em;
+}
+
 .testimonial-img {
   width: 100px;
 }
@@ -16,7 +20,7 @@
 }
 
 .nav li a {
-  padding: 10px 7px 10px 7px;
+  padding: 18px 7px 10px 7px;
 }
 
 .videobox
@@ -196,7 +200,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #33bbbb;
+    color: #bbffff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -255,7 +259,7 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:768px) {
     /* added by mstein */
     .nav li a {
-      padding: 10px 7px 10px 7px;
+      padding: 18px 7px 10px 7px;
     }
 
     .navbar-default .nav li a {
@@ -300,13 +304,13 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:880px) {
   .nav li a {
-    padding: 10px 16px 10px 16px;
+    padding: 18px 16px 10px 16px;
   }
 }
 
 @media(min-width:1000px) {
   .nav li a {
-    padding: 10px 24px 10px 24px;
+    padding: 18px 24px 10px 24px;
   }
 }
 
