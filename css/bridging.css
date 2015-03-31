@@ -4,6 +4,17 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.testimonial-img {
+  width: 100px;
+}
+
+.testimonial-img-box {
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
 .nav li a {
   padding: 10px 7px 10px 7px;
 }
