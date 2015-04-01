@@ -4,10 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-.lpg-home {
-  font-size: 2em;
-}
-
 .testimonial-img {
   width: 100px;
 }
@@ -254,6 +250,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+.navbar-default .lpg-home {
+  font-size: 30px;
+}
+
 /* this media query creates a transparent top navbar for wide screens */
 
 @media(min-width:768px) {
@@ -265,9 +265,21 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default .nav li a {
         color: #000;
     }
+
     .navbar-default.navbar-shrink .nav li a {
         color: #fff;
     }
+
+    .navbar-default .lpg-home {
+      font-size: 30px;
+      color: #000;
+    }
+
+    .navbar-default.navbar-shrink .lpg-home {
+      font-size: 30px;
+      color: #fff;
+    }
+
     /* end added by mstein */
 
     .navbar-default {
@@ -280,7 +292,6 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
