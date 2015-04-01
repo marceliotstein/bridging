@@ -318,7 +318,7 @@ header {
     text-align: left;
     color: #000;
     background-attachment: scroll;
-    background-image: url(../imgnew/skyline1.jpg);
+    background-image: url(../imgnew/conftable.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -706,7 +706,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../imgnew/skyline2.jpg);
+    background-image: url(../imgnew/skyline1.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
