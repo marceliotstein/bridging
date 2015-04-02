@@ -24,6 +24,12 @@
   margin: 20px 0px 60px 40px;
 }
 
+.videotext {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .videobox
   min-width: 450px;
   padding: 0px 5px 0px 5px;
