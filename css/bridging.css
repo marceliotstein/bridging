@@ -4,6 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.videoframe {
+ border-width: 2px;
+ border-color: black;
+ border-style: solid;
+}
+
 .testimonial-img {
   width: 100px;
 }
@@ -33,6 +39,9 @@
 .videobox
   min-width: 450px;
   padding: 0px 5px 0px 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
   text-align: center;
 }
 
@@ -269,9 +278,13 @@ fieldset[disabled] .btn-xl.active {
 /* this media query creates a transparent top navbar for wide screens */
 
 @media(min-width:992px) {
+  /*.videomargin {
+    margin: 20px 0px 60px 40px;
+  }
+
   .videobox
     min-width: 600px;
-  }
+  }*/
 }
 
 @media(min-width:768px) {
